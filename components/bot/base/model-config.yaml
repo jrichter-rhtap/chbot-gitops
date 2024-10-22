@@ -1,0 +1,6 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: bot-model-config
+data:
+  MODEL_ENDPOINT: "http://bot-model-server:8001"

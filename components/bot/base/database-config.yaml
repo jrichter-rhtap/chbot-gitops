@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: bot-database-config
+data:
+  VECTORDB_HOST: "bot-database"
+  VECTORDB_PORT: ""
